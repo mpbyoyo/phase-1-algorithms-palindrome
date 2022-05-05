@@ -1,5 +1,6 @@
-function isPalindrome(word) {
+function isPalindrome(word = word.toLowerCase()) {
   // Write your algorithm here
+  return word.split('').reverse().join('') == word
 }
 
 /* 
